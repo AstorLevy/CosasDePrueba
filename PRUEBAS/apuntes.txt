@@ -1,0 +1,24 @@
+//COMO FUNCIONA EL forEach
+var arr = [22, 44, 55, 66, 77]
+
+arr.forEach(function(elemnt, index, arreglo){
+    console.log(elemnt)//muestra el elemento
+    console.log(index)//muestra el indice
+    console.log(arreglo)//muestra el array
+})
+
+//ASI SE BUSCA POR ATRIBUTO EL OBJETO COMPLETO DENTRO DE UN ARRAY
+function(str){
+    return autos.find(auto => auto.patente == str)
+ }
+//SI QUEREMOS USAR CONDICIONAL
+function(str){
+         let coso = autos.find(auto => auto.patente == str)
+         if(coso){
+            return coso
+         }else{
+            return null
+         }
+      },
+
+
