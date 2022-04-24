@@ -1,0 +1,44 @@
+let palabra = "fooziman"
+
+function contar(palabra){
+    contador = 0
+    for(let i = 0; i < palabra.length; i++){
+        contador = contador + 1
+    }
+    return contador
+}
+
+console.log(contar(palabra))
+
+//================================================
+
+console.log(typeof("fooziman")) 
+
+//================================================
+
+let palabra = "fooziman"
+
+console.log(palabra.replace("f", "F"))
+
+//================================================
+
+let palabra = "fooziman"
+
+console.log(palabraa.replace("n", "N"))
+
+//================================================
+
+let palabra = "fooziman"
+
+console.log(palabra.replace("a", "@"))
+
+//////////////////////////////////////////////////
+
+let palabra = "fooziman"
+
+console.log(palabra.slice([1],[7]))
+
+//================================================
+
+
+
