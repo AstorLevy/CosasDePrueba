@@ -1,3 +1,5 @@
+1) "fooziman" =>  mostrar el total de letras
+
 let palabra = "fooziman"
 
 function contar(palabra){
@@ -12,9 +14,13 @@ console.log(contar(palabra))
 
 //================================================
 
+2) "fooziman" =>  mostrar que "fooziman" es de tipo string
+
 console.log(typeof("fooziman")) 
 
 //================================================
+
+3) "fooziman" =>  Fooziman
 
 let palabra = "fooziman"
 
@@ -22,11 +28,15 @@ console.log(palabra.replace("f", "F"))
 
 //================================================
 
+4) "fooziman" =>  foozimaN
+
 let palabra = "fooziman"
 
 console.log(palabraa.replace("n", "N"))
 
 //================================================
+
+5) "fooziman" =>  Foozim@N
 
 let palabra = "fooziman"
 
@@ -34,11 +44,62 @@ console.log(palabra.replace("a", "@"))
 
 //////////////////////////////////////////////////
 
+6) "fooziman" => "oozima"
+
 let palabra = "fooziman"
 
 console.log(palabra.slice([1],[7]))
 
 //================================================
+
+7) "fooziman" =>  f00z1man
+
+let palabra = "fooziman".replace("oo", "00")
+
+newPalabra = palabra.replace("i", "1")
+
+console.log(newPalabra);
+
+//================================================
+
+8) "fooziman" =>  F00z1m@N
+
+let palabra1 = "fooziman".replace("oo", "00")
+
+palabra2 = palabra1.replace("i", "1")
+
+palabra3 = palabra2.replace("a", "@")
+
+
+console.log(palabra3);
+
+//================================================
+
+9) "fooziman" =>  ["f","o","o","z","i","m","a,"n"];
+
+palabra = "fooziman"
+
+console.log(palabra.split(""))
+
+//================================================
+
+10) "fooziman" , "bar" son string distintos y debes fucionarlos en 1 solo string =>  "fooziman bar" 
+ 
+console.log(palabrasUnidas = "fooziman " + "bar")
+
+//////////////////////////////////////////////////
+
+11) "fooziman" reverse string =>   "namiz00f" 
+
+let palabra = "fooziman".replace("oo", "00")
+
+function darVuelta(palabra){
+    return palabra.split("").reverse().join("")
+}
+
+console.log(darVuelta(palabra));
+
+
 
 
 
